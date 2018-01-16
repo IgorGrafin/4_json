@@ -5,16 +5,16 @@ import sys
 def load_data(file_path):
     try:
         with open(file_path, 'r') as file:
-            data = json.load(file)
-            return data
+            j_data = json.load(file)
+            return j_data
     except FileNotFoundError:
         raise Exception("File %s not found!" % file_name)
     except json.decoder.JSONDecodeError:
         raise Exception("JSON is not valid!")
 
 
-def pretty_print_json(data):
-    print(json.dumps(data, ensure_ascii=False, sort_keys=True, indent=4))
+def pretty_print_json(json_data):
+    print(json.dumps(json_data, ensure_ascii=False, sort_keys=True, indent=4))
 
 
 if __name__ == '__main__':
