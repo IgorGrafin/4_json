@@ -18,7 +18,7 @@ Reads JSON file and prints in console in human-readable format. For example:
                     "DayOfWeek": "Monday",
                     "Hours": "09:30-22:30"
 
-    },
+    }
 ]
 ```
 
