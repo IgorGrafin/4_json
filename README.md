@@ -17,7 +17,7 @@ $ python pprint_json.py in.json
 ```
 Launching on Windows via CMD or PowerShell is the same. 
 
-Save json as file for example from [here](https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json). Put it's path as a parameter. The out put will be look something like this:
+Save json as file for example from [here](https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json). Put it's path as a parameter. The output will be look something like this:
 
 ```
 [
