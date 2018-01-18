@@ -1,6 +1,23 @@
 # Prettify JSON
 
-Reads JSON file and prints in console in human-readable format. For example:
+Reads JSON file and prints in console in human-readable format.
+
+# Quickstart
+
+You have to start program with json-file as a parameter. See the following example.
+
+Example of script launch on Linux, Python 3.5:
+
+```bash
+
+$ python pprint_json.py <path to file>
+
+$ python pprint_json.py in.json
+
+```
+Launching on Windows via CMD or PowerShell is the same. 
+
+Save json as file for example from [here](https://devman.org/media/filer_public/1d/32/1d32132e-efa4-4a6c-bd32-312acc3710ad/alco_shops.json). Put it's path as a parameter. The output will be look something like this:
 
 ```
 [
@@ -22,21 +39,6 @@ Reads JSON file and prints in console in human-readable format. For example:
 ]
 ```
 
-# Quickstart
-
-You have to start program with json-file as a parameter. See the following example.
-
-Example of script launch on Linux, Python 3.5:
-
-```bash
-
-$ python pprint_json.py <path to file>
-
-$ python pprint_json.py in.json
-
-```
-Launching on Windows via CMD or PowerShell is the same. 
-The example file (in.json) is included in this project. 
 
 # Project Goals
 
